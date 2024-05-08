@@ -1,0 +1,6 @@
+<select [disabled]="disabled" (change)="onSelected($event)">
+    <option value="" disabled [selected]="selectedValue === ''">Selecione uma opção</option>
+    <option *ngFor="let option of options.slice(1)" [value]="option.value">{{ option.label }}</option>
+ </select>
+
+  

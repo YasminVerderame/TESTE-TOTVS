@@ -1,0 +1,35 @@
+
+<div class="buttons">
+    <app-button type="primary"  [disabled]="false" (onClick)="buttonClicked()">Primary </app-button>
+    <app-button type="primary"  [disabled]="true" (onClick)="buttonClicked()">Primary disabled</app-button>
+</div>
+
+<div class="buttons">
+    <app-button type="secondary" [disabled]="false" (onClick)="buttonClicked()"> Secondary </app-button>
+    <app-button type="secondary" [disabled]="true" (onClick)="buttonClicked()">Secondary Disabled </app-button>
+</div>
+
+<div class="buttons">
+    <app-button type="tertiary"  [disabled]="false" (onClick)="buttonClicked()"> Tertiary </app-button>
+    <app-button type="tertiary"  [disabled]="true" (onClick)="buttonClicked()"> Tertiary Disabled </app-button>
+</div>
+
+
+<div class="buttons">
+    <app-button type="danger"  [disabled]="false" (onClick)="buttonClicked()"> Danger </app-button>
+    <app-button type="danger"  [disabled]="true" (onClick)="buttonClicked()"> Danger Disabled </app-button>
+</div>
+
+<div class="buttons">
+    <app-button type="secondary-danger" [disabled]="false" (onClick)="buttonClicked()">Secondary Danger</app-button>
+    <app-button type="secondary-danger" [disabled]="true" (onClick)="buttonClicked()">Secondary Danger Disabled</app-button>
+</div>
+
+<div class="buttons">
+    <app-select [options]="selectOptions" [disabled]="false" required></app-select>
+    <app-select [options]="selectOptions" [disabled]="true"></app-select>
+</div>
+
+
+
+

@@ -1,0 +1,117 @@
+button{
+    border: 0;
+    border-radius: 3px;    
+    padding: 0 16px;
+    font-weight: 600;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus,
+button:active{
+    outline: 2px solid #333;
+    outline-offset: 2px;
+}
+
+.primary {
+    background-color: #4545a1;
+    color: #fff;
+}
+
+button.primary:disabled{
+    cursor: not-allowed;
+    background-color: #9b9b9b;
+    border: 0;
+    color: #3b3b3b;
+    outline: none;
+}
+
+.secondary {
+    background-color: transparent;
+    border: 2px solid #4545a1;
+    color: #4545a1;
+}
+
+button.secondary:hover{
+    background-color: #c2c2ec; 
+}
+
+button.secondary:disabled{
+    background-color: transparent;
+    cursor: not-allowed;
+    border: 2px solid #9b9b9b;
+    color: #3b3b3b;
+    outline: none;
+}
+
+.tertiary {
+    background-color: transparent;
+    color: #4545a1;
+}
+
+button.tertiary:hover{
+    background-color: #c2c2ec; 
+    border: 1px solid #4545a1;
+}
+
+button.tertiary:disabled{
+    cursor: not-allowed;
+    background-color: transparent; 
+    color: #3b3b3b;
+    border: 0;
+    outline: none;
+}
+
+
+.danger {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+button.danger:active{
+    background-color: #8d2a1e;
+}
+
+button.danger:disabled{
+    cursor: not-allowed;
+    background-color: #9b9b9b; 
+    color: #3b3b3b;
+    border: 0;
+    outline: none;
+}
+
+button.secondary-danger{
+  background-color: transparent;
+  color: #e74c3c; 
+  border: 2px solid #e74c3c;
+}
+
+button.secondary-danger:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+button.secondary-danger:disabled {
+    cursor: not-allowed;
+    background-color: transparent;
+    color: #9b9b9b;
+    border: 2px solid #9b9b9b;
+    outline: none;
+}
+
+.small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.medium {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.large {
+    padding: 15px 30px;
+    font-size: 16px;
+}
