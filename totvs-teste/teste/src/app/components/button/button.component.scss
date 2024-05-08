@@ -104,14 +104,17 @@ button.secondary-danger:disabled {
 .small {
     padding: 5px 10px;
     font-size: 12px;
+    min-height: 2em;
 }
 
 .medium {
     padding: 10px 20px;
     font-size: 14px;
+    min-height: 2.75em;
 }
 
 .large {
     padding: 15px 30px;
     font-size: 16px;
+    min-height: 3.5em;
 }
